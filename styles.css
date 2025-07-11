@@ -1,1 +1,13 @@
 /* your code */
+table{
+   border-collapse: collapse; /* Ensures borders are shared between cells for a clean look */
+  border: 1px solid cyan; 
+
+}
+thead {
+	background-color: blue;
+	color: white;
+}
+tbody tr:nth-child(even) {
+  background-color: #dddddd;
+}
